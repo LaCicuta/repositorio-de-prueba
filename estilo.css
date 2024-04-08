@@ -1,0 +1,54 @@
+body, html{
+    background-color: black;
+    font-family: sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+}
+.cuadro{
+    position: absolute;
+    margin: 0 auto;
+    height: 100%;
+    width: 80%;
+    left: 20%;
+}
+#cuadro-color{
+    height: 25%;
+    width: 100%;
+    margin: 0 auto;
+}
+.interior-c{
+    background-color: aqua;
+   
+}
+.interior-y{
+    background-color:gold;
+}
+.interior-o{
+    background-color: orangered;
+}
+.interior-r{
+    background-color: red;
+}
+.menu{
+    background-color: black;
+    height: 100%;
+    width: 20%;
+    position: absolute;
+}
+ul{
+    list-style: none;
+    color: white;
+}
+li:hover{
+    color:gray;
+}
+.texto{
+    color: white;
+    padding: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+p{
+    font-size: 12px;
+}
